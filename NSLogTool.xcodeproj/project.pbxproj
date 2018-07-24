@@ -14,6 +14,7 @@
 		138EE3BE21061FC200BF8FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138EE3BC21061FC200BF8FEC /* LaunchScreen.storyboard */; };
 		138EE3C121061FC200BF8FEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 138EE3C021061FC200BF8FEC /* main.m */; };
 		138EE3CA21061FE000BF8FEC /* NSObject+NSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 138EE3C921061FE000BF8FEC /* NSObject+NSLog.m */; };
+		138EE3EF2106C50F00BF8FEC /* NSObject+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 138EE3EE2106C50F00BF8FEC /* NSObject+Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		138EE3C021061FC200BF8FEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		138EE3C821061FE000BF8FEC /* NSObject+NSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSLog.h"; sourceTree = "<group>"; };
 		138EE3C921061FE000BF8FEC /* NSObject+NSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSLog.m"; sourceTree = "<group>"; };
+		138EE3ED2106C50F00BF8FEC /* NSObject+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Util.h"; sourceTree = "<group>"; };
+		138EE3EE2106C50F00BF8FEC /* NSObject+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Util.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 			children = (
 				138EE3C821061FE000BF8FEC /* NSObject+NSLog.h */,
 				138EE3C921061FE000BF8FEC /* NSObject+NSLog.m */,
+				138EE3ED2106C50F00BF8FEC /* NSObject+Util.h */,
+				138EE3EE2106C50F00BF8FEC /* NSObject+Util.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				138EE3EF2106C50F00BF8FEC /* NSObject+Util.m in Sources */,
 				138EE3B621061FC200BF8FEC /* ViewController.m in Sources */,
 				138EE3CA21061FE000BF8FEC /* NSObject+NSLog.m in Sources */,
 				138EE3C121061FC200BF8FEC /* main.m in Sources */,
